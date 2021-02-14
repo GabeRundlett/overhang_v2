@@ -1,0 +1,9 @@
+# .vmx is a backup map, created by hammer after each 
+# save in order to be able to revert.
+# These files are useful locally, however they are
+# useless to share and to keep in version history.
+*.vmx
+
+*.log
+*.bsp
+*.prt
