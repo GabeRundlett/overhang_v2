@@ -7,3 +7,16 @@
 *.log
 *.bsp
 *.prt
+
+# .blend1 is also a backup file for blender, so we
+# need not keep track of it
+*.blend1
+
+# .vtf files are generated when compiling custom textures,
+# .smd files are generated when compiling custom models
+# and are not necessary for redistribution.
+# At the moment, I don't have a way of compiling to VTF or SMD
+# in an automated way, so I can do it manually and package
+# them in the repository, though this is unoptimal
+# *.vtf 
+# *.smd

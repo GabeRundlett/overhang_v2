@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+    $basetexture "overhang_v2/skybox_cliffs_col"
+    $bumpmap	 "overhang_v2/skybox_cliffs_nrm"
+}
